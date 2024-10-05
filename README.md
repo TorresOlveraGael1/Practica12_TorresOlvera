@@ -11,6 +11,7 @@ print ("Torres Olvera Gael")
 print (" ")
 
 #Valores establecidos para la lista
+
 a = int(input("Ingresa el valor que quieras: "))
 
 b = int(input("Ingresa el valor que quieras: "))
