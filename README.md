@@ -28,10 +28,13 @@ g = int(input("Ingresa el valor que quieras: "))
 Precios = [a, b, c, d, e, f, g] #Juntando los valores solicitados en una linea
 
 #Ordenar la lista de mayor a menor
+
 Precios.sort(reverse=True)
 
 #Imprimir la lista ordenada
+
 print("Lista ordenada de mayor a menor:")
+
 print(Precios)
 
 ![image](https://github.com/user-attachments/assets/2a6e9ac1-b94a-4912-b114-40e4742b4058)
@@ -42,27 +45,39 @@ print(Precios)
 # Codigo de listas sobre las materias
 
 print (" ")
+
 print ("Torres Olvera Gael")
+
 print (" ")
 
 #Almacenar las materias en una lista
+
 materias = ["Pensamiento matemático", "Español", "Inglés", "Química", "Civismo", "Francés"]
 
 #Desplegar mensaje por cada materia
+
 for materia in materias:
+
     print("Estoy cursando", materia)
 
 #Crear una lista para las calificaciones
+
 calificaciones = []
 
 #Pedir al usuario las calificaciones
+
 for materia in materias:
+
     calificacion = float(input(f"Ingrese la calificación para {materia}: "))
+    
     calificaciones.append(calificacion)
 
 #Mostrar las calificaciones
+
 print("\nResultados de calificaciones:")
+
 for i in range(len(materias)):
+
     print(f"En {materias[i]} has obtenido {calificaciones[i]}")
 
 ![image](https://github.com/user-attachments/assets/7f017355-f509-4c61-8e3d-b79fb1eecd09)
@@ -73,25 +88,35 @@ for i in range(len(materias)):
 # Codigo de los numeros de la loteria
 
 print (" ")
+
 print ("Torres Olvera Gael")
 print (" ")
 
+
 #Inicializar una lista para los números ganadores
+
 numeros_ganadores = []
 
 #Preguntar cuántos números se van a ingresar
+
 cantidad = int(input("¿Cuántos números triunfadores de la lotería quieres ingresar? "))
 
 #Solicitar los números ganadores
+
 for i in range(cantidad):
+
     numero = int(input(f"Ingrese el número ganador {i + 1}: "))
+    
     numeros_ganadores.append(numero)
 
 #Ordenar la lista de menor a mayor
+
 numeros_ganadores.sort()
 
 #Mostrar los números ordenados
+
 print("\nNúmeros ganadores de la lotería, ordenados de menor a mayor:")
+
 print(numeros_ganadores)
 
 ![image](https://github.com/user-attachments/assets/f40c8809-31dd-45e1-8c99-5a47a4b7987d)
